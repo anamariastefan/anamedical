@@ -1,0 +1,5 @@
+<apex:page >
+    <div style="text-align:left;">
+        <img src="{!$Resource.Logo_Ana_Medical}"/>
+    </div>
+</apex:page>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Age__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(ISBLANK(Deceased_Date__c),
+
+IF( NOT( ISBLANK( Birthdate__c ) ) , TEXT(IF( NOT( ISBLANK( Birthdate__c ) ) ,
+IF( DATE( 2000 , MONTH( Birthdate__c ) , DAY( Birthdate__c ) ) &lt;= DATE( 2000 , MONTH( TODAY() ) , DAY( TODAY() ) ),
+YEAR (Today()) - YEAR ( Birthdate__c ),
+YEAR (Today()) - YEAR ( Birthdate__c ) -1 ),
+null))+ &apos; Years &apos;, &apos;&apos;),
+
+IF( NOT( ISBLANK( Birthdate__c ) ) , TEXT(IF( NOT( ISBLANK( Birthdate__c ) ) ,
+IF( DATE( 2000 , MONTH( Birthdate__c ) , DAY( Birthdate__c ) ) &lt;= DATE( 2000 , MONTH( Deceased_Date__c ) , DAY( Deceased_Date__c ) ),
+YEAR (Deceased_Date__c) - YEAR ( Birthdate__c ),
+YEAR (Deceased_Date__c) - YEAR ( Birthdate__c ) -1 ),
+null))+ &apos; Years &apos;, &apos;&apos;)
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Age</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

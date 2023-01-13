@@ -1,0 +1,47 @@
+@page 
+{
+	/* Page setup*/
+	size: 8.3in 11.7in; /* A4 size*/
+	margin-top: 1.24in;
+	margin-bottom: 0.29in;
+	margin-left: 0.79in;
+	margin-right: 0.47in; 
+	background-image: url('{!$Resource.Word_Background_Picture}');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+
+	@top-left {
+		content: element(header);
+	}
+	
+	/* Put page numbers in the top right corner of each page in the pdf document. */
+	@bottom-center {
+		content: element(footer);
+	}
+}
+body {
+	font-size: 10pt;
+	margin:0px;
+	padding:0px;
+}
+form {
+	margin:0px;
+	padding:0px;
+}
+div.header {
+	position: running(header);
+	font-size: 8pt;
+}
+div.footer {
+	position: running(footer);
+	font-size: 8pt;
+	font-weight: bold;
+}
+.invisibletable {
+	border-collapse:collapse;
+	border-spacing: 0; 
+	border: 0px;
+}
+hr{
+	border: 1px solid black;
+}

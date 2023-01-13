@@ -1,0 +1,7 @@
+.wo-message-format .slds-notify_toast {
+    width: 100%;
+    margin: 0px;
+}
+.wo-message-format .slds-notify_container {
+    z-index: unset;
+}
