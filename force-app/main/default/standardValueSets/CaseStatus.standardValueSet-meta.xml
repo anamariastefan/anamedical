@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Inactive_Plan</fullName>
+        <default>false</default>
+        <label>Inactive Plan</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Active_plan</fullName>
+        <default>true</default>
+        <label>Active Plan</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>MD Review</fullName>
+        <default>false</default>
+        <label>MD Review</label>
+        <closed>false</closed>
+    </standardValue>
+</StandardValueSet>

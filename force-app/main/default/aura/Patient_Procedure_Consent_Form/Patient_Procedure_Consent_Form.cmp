@@ -1,0 +1,20 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickActionWithoutHeader" 
+                access="global" controller="Generate_Consent_Controller">
+ 
+    <!--Attributes-->
+    <aura:attribute name="showSpinner" type="boolean" default="false"/>
+    <aura:attribute name="recordId" type="Id"/>
+    
+    <!-- Running Methods -->   
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/> 
+    
+    <aura:if isTrue="{!v.showSpinner}">
+        <div aura:id="spinnerId" class="slds-spinner_container">
+            <div class="slds-spinner--brand  slds-spinner slds-spinner--large slds-is-relative" role="alert">
+                <span class="slds-assistive-text">Loading...</span>
+                <div class="slds-spinner__dot-a"></div>
+                <div class="slds-spinner__dot-b"></div>
+            </div>
+        </div>
+    </aura:if>
+</aura:component>

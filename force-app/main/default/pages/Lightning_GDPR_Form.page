@@ -1,0 +1,102 @@
+<apex:page showHeader="false" standardStylesheets="false" renderAs="advanced_PDF" applyBodyTag="false"
+           standardController="Patient__c" extensions="Generate_GDPR_Controller">
+    <head>
+        <style type="text/css">
+            @page 
+            {
+                /* Page setup*/
+                size: 8.3in 11.7in; /* A4 size*/
+                margin-top: 1.24in;
+                margin-bottom: 0.29in;
+                margin-left: 0.79in;
+                margin-right: 0.47in; 
+                background-image: url('{!$Resource.Word_Background_Picture}');
+             	background-repeat: no-repeat;
+                background-position: right bottom;
+            
+                @top-left {
+                	content: element(header);
+                }
+                
+                /* Put page numbers in the top right corner of each page in the pdf document. */
+                @bottom-center {
+                    content: element(footer);
+                }
+            }
+            body {
+                font-size: 10pt;
+                margin:0px;
+                padding:0px;
+            }
+            form {
+                margin:0px;
+                padding:0px;
+            }
+            div.header {
+                position: running(header);
+                font-size: 8pt;
+            }
+            div.footer {
+                position: running(footer);
+                font-size: 8pt;
+                font-weight: bold;
+            }
+            .invisibletable {
+                border-collapse:collapse;
+                border-spacing: 0; 
+                border: 0px;
+            }
+            hr{
+           		border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body style="font-size: 12pt;">
+        <div class="header">
+            <apex:include pageName="AnaMedicalHeader"/>
+        </div>
+        <!-- Content -->
+        <div style="margin-top: 10px; font-size: 16pt; text-align: center; text-weight: bold;">
+            <b>Consimtamant GDPR</b>
+        </div>
+        <div style="margin-top: 20px; text-align: justify; text-justify: inter-word; text-indent: 25px;">
+            <p>
+                In conformitate cu Regulamentul (UE) 2016/679 al Parlamentului European si al Consiliului din data de 27.04.2016 privind protectia persoanelor fizice in ceea ce
+                priveste prelucrarea datelor cu caracter personal si privind libera circulatie a acestor date si de abrogare.
+            </p>
+            <p>
+				Imi exprim consimtamantul ca unitatea medico-sanitara sa fie autorizata sa prelucreze datele mele personale prin intermediul platformei CNAS-SIUI (Sistem Informatic 
+                Unic Integrat), in scopul realizarii atributiilor si obligatiilor prevazute de actele normative care guverneaza sistemul de asigurari sociale de sanatate si in special
+                celor care decurg din statutul de asigurat al pacientului in sistemul de asigurari sociale de sanatate.
+            </p>
+
+            <p>
+                Consimtamantul in ceea ce priveste prelucrarea datelor cu caracter personal, prin intermediul SIUI (Sistem Informatic Unic Integrat), precum si furnizarea datelor 
+                rezultate din investigatiile medicale sunt voluntare.
+            </p>   
+            <p>
+                De asemenea, afirm si recunosc ca am fost informat si am inteles pe deplin posibilitatea retragerii consimtamantului, in orice moment, in cazul in care prelucrarea 
+                datelor mele personale se efectueaza prin mijloace automatizate si ca acest lucru afecteaza prelucrarea efectuata pe baza consimtamantului inainte de retragerea acestuia,
+                in sensul imposibilitatii inscrierii in sistemul de ocrotire al sanatatii din Romania si de acordare a serviciilor medicale.
+            </p>
+            <p>
+				Retragerea consimtamantului se poate face prin cerere scrisa datata și semnata la sediul unitatii medico-sanitare la datele de contact mentionate in antet, in atenția 
+                reprezentantului legal.
+            </p>
+            <p>
+				Totodata, stiu ca am dreptul de a depune o plangere in fata ANSPDCP daca am ingrijorari cu privire la modul in care sunt prelucrate datele cu caracter personal.
+            </p>
+            <p>
+				Prin prezenta declaratie de consimtamant confirm ca sunt de acord ca datele cu caracter personal sa fie prelucrate prin canalul mentionat mai sus si utilizate in limitele
+                astfel specificate.
+            </p>
+        </div>
+        <div style = "margin-top: 100px;">
+            <span>Nume&nbsp;{!currentPatient.Name}</span><br/>
+            <span>Data&nbsp;{!todayString}</span>
+            <br/><br/>
+            
+            <span>Semnatura pacient/reprezentant legal______________________________</span>
+        </div>
+    </body>
+</apex:page>

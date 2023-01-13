@@ -1,0 +1,1951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pharmaceutical_form__c</fullName>
+    <externalId>false</externalId>
+    <label>Pharmaceutical form</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CONC. PT. SOL. INJ./PERF.</fullName>
+                <default>false</default>
+                <label>CONC. PT. SOL. INJ./PERF.</label>
+            </value>
+            <value>
+                <fullName>COMPR. FILM.</fullName>
+                <default>false</default>
+                <label>COMPR. FILM.</label>
+            </value>
+            <value>
+                <fullName>SOL INJ.</fullName>
+                <default>false</default>
+                <label>SOL INJ.</label>
+            </value>
+            <value>
+                <fullName>SOL INJ. IN STILOU INJECTOR (PEN) PREUMPLUT</fullName>
+                <default>false</default>
+                <label>SOL INJ. IN STILOU INJECTOR (PEN) PREUMPLUT</label>
+            </value>
+            <value>
+                <fullName>SOL. ORALA</fullName>
+                <default>false</default>
+                <label>SOL. ORALA</label>
+            </value>
+            <value>
+                <fullName>COMPR.</fullName>
+                <default>false</default>
+                <label>COMPR.</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ.</fullName>
+                <default>false</default>
+                <label>SOL. INJ.</label>
+            </value>
+            <value>
+                <fullName>PULB. + SOLV. PT. SUSP. INJ. CU ELIB. PREL.</fullName>
+                <default>false</default>
+                <label>PULB. + SOLV. PT. SUSP. INJ. CU ELIB. PREL.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. DISPERSIE PERF.</fullName>
+                <default>false</default>
+                <label>PULB. PT. DISPERSIE PERF.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SUSP. PERF.</fullName>
+                <default>false</default>
+                <label>PULB. PT. SUSP. PERF.</label>
+            </value>
+            <value>
+                <fullName>LIOF. ORAL</fullName>
+                <default>false</default>
+                <label>LIOF. ORAL</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SOL. ORALA</fullName>
+                <default>false</default>
+                <label>PULB. PT. SOL. ORALA</label>
+            </value>
+            <value>
+                <fullName>CAPS.</fullName>
+                <default>false</default>
+                <label>CAPS.</label>
+            </value>
+            <value>
+                <fullName>COMPR. EFF.</fullName>
+                <default>false</default>
+                <label>COMPR. EFF.</label>
+            </value>
+            <value>
+                <fullName>PULBERE ORALA IN PLIC</fullName>
+                <default>false</default>
+                <label>PULBERE ORALA IN PLIC</label>
+            </value>
+            <value>
+                <fullName>SOL INJ./SOL. PT. INHALAT PRIN NEBULIZATOR</fullName>
+                <default>false</default>
+                <label>SOL INJ./SOL. PT. INHALAT PRIN NEBULIZATOR</label>
+            </value>
+            <value>
+                <fullName>GRAN. PT. SOL. ORALA</fullName>
+                <default>false</default>
+                <label>GRAN. PT. SOL. ORALA</label>
+            </value>
+            <value>
+                <fullName>SIROP</fullName>
+                <default>false</default>
+                <label>SIROP</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SOL. ORALA IN PLIC</fullName>
+                <default>false</default>
+                <label>PULB. PT. SOL. ORALA IN PLIC</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. SAU PERF. IN SERINGA PREUMPLUTA</fullName>
+                <default>false</default>
+                <label>SOL. INJ. SAU PERF. IN SERINGA PREUMPLUTA</label>
+            </value>
+            <value>
+                <fullName>SUPOZ.</fullName>
+                <default>false</default>
+                <label>SUPOZ.</label>
+            </value>
+            <value>
+                <fullName>CREMA</fullName>
+                <default>false</default>
+                <label>CREMA</label>
+            </value>
+            <value>
+                <fullName>CONC. PT. SOL. PERF.</fullName>
+                <default>false</default>
+                <label>CONC. PT. SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>COMPR. GASTROREZ.</fullName>
+                <default>false</default>
+                <label>COMPR. GASTROREZ.</label>
+            </value>
+            <value>
+                <fullName>SOL INJ. IN SERINGA PREUMPLUTA</fullName>
+                <default>false</default>
+                <label>SOL INJ. IN SERINGA PREUMPLUTA</label>
+            </value>
+            <value>
+                <fullName>SOL. PERF.</fullName>
+                <default>false</default>
+                <label>SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>GEL</fullName>
+                <default>false</default>
+                <label>GEL</label>
+            </value>
+            <value>
+                <fullName>COMPR. SUBLING.</fullName>
+                <default>false</default>
+                <label>COMPR. SUBLING.</label>
+            </value>
+            <value>
+                <fullName>PULB+SOLV. PT. SOL. INJ</fullName>
+                <default>false</default>
+                <label>PULB+SOLV. PT. SOL. INJ</label>
+            </value>
+            <value>
+                <fullName>DRAJ.</fullName>
+                <default>false</default>
+                <label>DRAJ.</label>
+            </value>
+            <value>
+                <fullName>SUSP. INJ. IN STILOU INJECTOR PREUMPLUT</fullName>
+                <default>false</default>
+                <label>SUSP. INJ. IN STILOU INJECTOR PREUMPLUT</label>
+            </value>
+            <value>
+                <fullName>SUSP. INJ. IN CARTUS</fullName>
+                <default>false</default>
+                <label>SUSP. INJ. IN CARTUS</label>
+            </value>
+            <value>
+                <fullName>SUSP. INJ. IN FLACON</fullName>
+                <default>false</default>
+                <label>SUSP. INJ. IN FLACON</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. IN FLACON</fullName>
+                <default>false</default>
+                <label>SOL. INJ. IN FLACON</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. IN CARTUS</fullName>
+                <default>false</default>
+                <label>SOL. INJ. IN CARTUS</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. IN STILOU INJECTOR PREUMPLUT</fullName>
+                <default>false</default>
+                <label>SOL. INJ. IN STILOU INJECTOR PREUMPLUT</label>
+            </value>
+            <value>
+                <fullName>SUSP. INJ. IN SERINGA PREUMPLUTA</fullName>
+                <default>false</default>
+                <label>SUSP. INJ. IN SERINGA PREUMPLUTA</label>
+            </value>
+            <value>
+                <fullName>COMPR. ELIB. PREL.</fullName>
+                <default>false</default>
+                <label>COMPR. ELIB. PREL.</label>
+            </value>
+            <value>
+                <fullName>PULB. DE INHAL.</fullName>
+                <default>false</default>
+                <label>PULB. DE INHAL.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. CONC. PT. SOL. PERF.</fullName>
+                <default>false</default>
+                <label>PULB. PT. CONC. PT. SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>SOL INJ./PERF.</fullName>
+                <default>false</default>
+                <label>SOL INJ./PERF.</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ./PERF.</fullName>
+                <default>false</default>
+                <label>SOL. INJ./PERF.</label>
+            </value>
+            <value>
+                <fullName>CAPS. ELIB. PREL.</fullName>
+                <default>false</default>
+                <label>CAPS. ELIB. PREL.</label>
+            </value>
+            <value>
+                <fullName>UNGUENT</fullName>
+                <default>false</default>
+                <label>UNGUENT</label>
+            </value>
+            <value>
+                <fullName>EMULSIE CUT.</fullName>
+                <default>false</default>
+                <label>EMULSIE CUT.</label>
+            </value>
+            <value>
+                <fullName>PULB+SOLV.PT.SOL.INJ</fullName>
+                <default>false</default>
+                <label>PULB+SOLV.PT.SOL.INJ</label>
+            </value>
+            <value>
+                <fullName>PULB+SOLV.PT.SOL.INJ.</fullName>
+                <default>false</default>
+                <label>PULB+SOLV.PT.SOL.INJ.</label>
+            </value>
+            <value>
+                <fullName>CAPS. MOI</fullName>
+                <default>false</default>
+                <label>CAPS. MOI</label>
+            </value>
+            <value>
+                <fullName>PULB. SI SOLV. PT. SOL. INJ.</fullName>
+                <default>false</default>
+                <label>PULB. SI SOLV. PT. SOL. INJ.</label>
+            </value>
+            <value>
+                <fullName>COMPR. ELIB. MODIF.</fullName>
+                <default>false</default>
+                <label>COMPR. ELIB. MODIF.</label>
+            </value>
+            <value>
+                <fullName>COMPR. ORODISPERSABILE</fullName>
+                <default>false</default>
+                <label>COMPR. ORODISPERSABILE</label>
+            </value>
+            <value>
+                <fullName>VAPORI DE INHALAT, LICHID</fullName>
+                <default>false</default>
+                <label>VAPORI DE INHALAT, LICHID</label>
+            </value>
+            <value>
+                <fullName>PULB. PT.SUSP. ORALA</fullName>
+                <default>false</default>
+                <label>PULB. PT.SUSP. ORALA</label>
+            </value>
+            <value>
+                <fullName>SPRAY NAZ.,SOL.</fullName>
+                <default>false</default>
+                <label>SPRAY NAZ.,SOL.</label>
+            </value>
+            <value>
+                <fullName>SOL INJ. IN STILOU INJECTOR PREUMPLUT</fullName>
+                <default>false</default>
+                <label>SOL INJ. IN STILOU INJECTOR PREUMPLUT</label>
+            </value>
+            <value>
+                <fullName>PULB. DE INHAL. UNIDOZA</fullName>
+                <default>false</default>
+                <label>PULB. DE INHAL. UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>PULB. UNIDOZA DE INHALAT</fullName>
+                <default>false</default>
+                <label>PULB. UNIDOZA DE INHALAT</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. IN SERINGA PREUMPLUTA</fullName>
+                <default>false</default>
+                <label>SOL. INJ. IN SERINGA PREUMPLUTA</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT., SOL.</fullName>
+                <default>false</default>
+                <label>PIC. OFT., SOL.</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT./NAZALE,SOL.</fullName>
+                <default>false</default>
+                <label>PIC. OFT./NAZALE,SOL.</label>
+            </value>
+            <value>
+                <fullName>COMPR. CU ELIB. PREL.</fullName>
+                <default>false</default>
+                <label>COMPR. CU ELIB. PREL.</label>
+            </value>
+            <value>
+                <fullName>SUSP. ORALA</fullName>
+                <default>false</default>
+                <label>SUSP. ORALA</label>
+            </value>
+            <value>
+                <fullName>PIC. ORALE, SOL.</fullName>
+                <default>false</default>
+                <label>PIC. ORALE, SOL.</label>
+            </value>
+            <value>
+                <fullName>PLASTURE TRANSDERMIC</fullName>
+                <default>false</default>
+                <label>PLASTURE TRANSDERMIC</label>
+            </value>
+            <value>
+                <fullName>SPRAY NAZAL, SOL.</fullName>
+                <default>false</default>
+                <label>SPRAY NAZAL, SOL.</label>
+            </value>
+            <value>
+                <fullName>SUSP. INJ.</fullName>
+                <default>false</default>
+                <label>SUSP. INJ.</label>
+            </value>
+            <value>
+                <fullName>SOL. CUT.</fullName>
+                <default>false</default>
+                <label>SOL. CUT.</label>
+            </value>
+            <value>
+                <fullName>PULB+SOLV. PT. SOL. INJ.</fullName>
+                <default>false</default>
+                <label>PULB+SOLV. PT. SOL. INJ.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SOL. PERF.</fullName>
+                <default>false</default>
+                <label>PULB. PT. SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>COMPR. GASTROREZISTENTE</fullName>
+                <default>false</default>
+                <label>COMPR. GASTROREZISTENTE</label>
+            </value>
+            <value>
+                <fullName>SOL. DE INHALAT PRESURIZATA</fullName>
+                <default>false</default>
+                <label>SOL. DE INHALAT PRESURIZATA</label>
+            </value>
+            <value>
+                <fullName>SOL. TESTARE CUTANATA</fullName>
+                <default>false</default>
+                <label>SOL. TESTARE CUTANATA</label>
+            </value>
+            <value>
+                <fullName>SPRAY BUCOFARINGIAN,SOL.</fullName>
+                <default>false</default>
+                <label>SPRAY BUCOFARINGIAN,SOL.</label>
+            </value>
+            <value>
+                <fullName>PIC. ORALE-SOL.</fullName>
+                <default>false</default>
+                <label>PIC. ORALE-SOL.</label>
+            </value>
+            <value>
+                <fullName>GRAN. ORALE</fullName>
+                <default>false</default>
+                <label>GRAN. ORALE</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SUSP. ORALA</fullName>
+                <default>false</default>
+                <label>PULB. PT. SUSP. ORALA</label>
+            </value>
+            <value>
+                <fullName>COMPR. PT. DISPERSIE ORALA/ORODISPERSABILE</fullName>
+                <default>false</default>
+                <label>COMPR. PT. DISPERSIE ORALA/ORODISPERSABILE</label>
+            </value>
+            <value>
+                <fullName>LAC DE UNGHII MEDICAMENTOS</fullName>
+                <default>false</default>
+                <label>LAC DE UNGHII MEDICAMENTOS</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SOL. INJ./PERF.</fullName>
+                <default>false</default>
+                <label>PULB. PT. SOL. INJ./PERF.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SOL. INJ.</fullName>
+                <default>false</default>
+                <label>PULB. PT. SOL. INJ.</label>
+            </value>
+            <value>
+                <fullName>LICHID PT. VAPORI DE INHAL.</fullName>
+                <default>false</default>
+                <label>LICHID PT. VAPORI DE INHAL.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. CONC. PT. SOL. INJ./PERF.</fullName>
+                <default>false</default>
+                <label>PULB. PT. CONC. PT. SOL. INJ./PERF.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. CONC. PT.SOL. PERF.</fullName>
+                <default>false</default>
+                <label>PULB. PT. CONC. PT.SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT.SUSP. ORALA IN PLIC</fullName>
+                <default>false</default>
+                <label>PULB. PT.SUSP. ORALA IN PLIC</label>
+            </value>
+            <value>
+                <fullName>PULB+SOLV. PT. SOL. INJ./PERF.</fullName>
+                <default>false</default>
+                <label>PULB+SOLV. PT. SOL. INJ./PERF.</label>
+            </value>
+            <value>
+                <fullName>SOLV. PT. UZ PARENT.</fullName>
+                <default>false</default>
+                <label>SOLV. PT. UZ PARENT.</label>
+            </value>
+            <value>
+                <fullName>SOLV. PT. PREP. PARENT.</fullName>
+                <default>false</default>
+                <label>SOLV. PT. PREP. PARENT.</label>
+            </value>
+            <value>
+                <fullName>SOL INJ. IN PEN MULTIDOZA</fullName>
+                <default>false</default>
+                <label>SOL INJ. IN PEN MULTIDOZA</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. IN PEN MULTIDOZA</fullName>
+                <default>false</default>
+                <label>SOL. INJ. IN PEN MULTIDOZA</label>
+            </value>
+            <value>
+                <fullName>SOL. PERF. IN SERINGA PREUMPLUTA UNIDOZA</fullName>
+                <default>false</default>
+                <label>SOL. PERF. IN SERINGA PREUMPLUTA UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>SUSP. INHAL. PRESURIZATA</fullName>
+                <default>false</default>
+                <label>SUSP. INHAL. PRESURIZATA</label>
+            </value>
+            <value>
+                <fullName>PULB. INHAL.</fullName>
+                <default>false</default>
+                <label>PULB. INHAL.</label>
+            </value>
+            <value>
+                <fullName>GRAN. PT. SUSP. ORALA</fullName>
+                <default>false</default>
+                <label>GRAN. PT. SUSP. ORALA</label>
+            </value>
+            <value>
+                <fullName>GRANULE PT. SUSP. ORALA</fullName>
+                <default>false</default>
+                <label>GRANULE PT. SUSP. ORALA</label>
+            </value>
+            <value>
+                <fullName>PULB. DE INHAL. CAPSULE</fullName>
+                <default>false</default>
+                <label>PULB. DE INHAL. CAPSULE</label>
+            </value>
+            <value>
+                <fullName>PULB. + SOLV. PT. SOL. PERF.</fullName>
+                <default>false</default>
+                <label>PULB. + SOLV. PT. SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>CAPS. MOI GASTROREZ.</fullName>
+                <default>false</default>
+                <label>CAPS. MOI GASTROREZ.</label>
+            </value>
+            <value>
+                <fullName>COMPR. FILM. ELIB. PREL.</fullName>
+                <default>false</default>
+                <label>COMPR. FILM. ELIB. PREL.</label>
+            </value>
+            <value>
+                <fullName>SPRAY NAZ.,SUSP.</fullName>
+                <default>false</default>
+                <label>SPRAY NAZ.,SUSP.</label>
+            </value>
+            <value>
+                <fullName>PULB. + SOLV. PT. SOL. INJ.</fullName>
+                <default>false</default>
+                <label>PULB. + SOLV. PT. SOL. INJ.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SUSP. INJ.</fullName>
+                <default>false</default>
+                <label>PULB. PT. SUSP. INJ.</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT. SUSP.</fullName>
+                <default>false</default>
+                <label>PIC. OFT. SUSP.</label>
+            </value>
+            <value>
+                <fullName>PICATURI OFT.-SUSP.</fullName>
+                <default>false</default>
+                <label>PICATURI OFT.-SUSP.</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT.,SOL. IN RECIPIENT UNIDOZA</fullName>
+                <default>false</default>
+                <label>PIC. OFT.,SOL. IN RECIPIENT UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>SOL. DIAL. PERIT.</fullName>
+                <default>false</default>
+                <label>SOL. DIAL. PERIT.</label>
+            </value>
+            <value>
+                <fullName>PULB. CUT.</fullName>
+                <default>false</default>
+                <label>PULB. CUT.</label>
+            </value>
+            <value>
+                <fullName>PULB. NAZALA UNIDOZA</fullName>
+                <default>false</default>
+                <label>PULB. NAZALA UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>PULB+SOLV.PT.SUSP.INJ.</fullName>
+                <default>false</default>
+                <label>PULB+SOLV.PT.SUSP.INJ.</label>
+            </value>
+            <value>
+                <fullName>PULB+SOLV.PT.SUSP. INTRAVEZICALA</fullName>
+                <default>false</default>
+                <label>PULB+SOLV.PT.SUSP. INTRAVEZICALA</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. IN STILOU INJECTOR (PEN) PREUMPLUT</fullName>
+                <default>false</default>
+                <label>SOL. INJ. IN STILOU INJECTOR (PEN) PREUMPLUT</label>
+            </value>
+            <value>
+                <fullName>PULB. PT.CONC. PT.SOL. PERF.</fullName>
+                <default>false</default>
+                <label>PULB. PT.CONC. PT.SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT.-SOL.</fullName>
+                <default>false</default>
+                <label>PIC. OFT.-SOL.</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. IN PEN PRE-UMPLUT</fullName>
+                <default>false</default>
+                <label>SOL. INJ. IN PEN PRE-UMPLUT</label>
+            </value>
+            <value>
+                <fullName>GEL OFT.</fullName>
+                <default>false</default>
+                <label>GEL OFT.</label>
+            </value>
+            <value>
+                <fullName>PICATURI OFT.SUSP.</fullName>
+                <default>false</default>
+                <label>PICATURI OFT.SUSP.</label>
+            </value>
+            <value>
+                <fullName>UNG. OFT.</fullName>
+                <default>false</default>
+                <label>UNG. OFT.</label>
+            </value>
+            <value>
+                <fullName>OVULE</fullName>
+                <default>false</default>
+                <label>OVULE</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. I.V/PERF.</fullName>
+                <default>false</default>
+                <label>SOL. INJ. I.V/PERF.</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT.,SOL.</fullName>
+                <default>false</default>
+                <label>PIC. OFT.,SOL.</label>
+            </value>
+            <value>
+                <fullName>PICATURI OFT., SUSP.</fullName>
+                <default>false</default>
+                <label>PICATURI OFT., SUSP.</label>
+            </value>
+            <value>
+                <fullName>SUSP. DE INHALAT PRESURIZATA</fullName>
+                <default>false</default>
+                <label>SUSP. DE INHALAT PRESURIZATA</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT.</fullName>
+                <default>false</default>
+                <label>PIC. OFT.</label>
+            </value>
+            <value>
+                <fullName>PIC. NAZALE, SOL.</fullName>
+                <default>false</default>
+                <label>PIC. NAZALE, SOL.</label>
+            </value>
+            <value>
+                <fullName>SOL. PT. HEMODIALIZA/HEMOFILTRARE</fullName>
+                <default>false</default>
+                <label>SOL. PT. HEMODIALIZA/HEMOFILTRARE</label>
+            </value>
+            <value>
+                <fullName>DRAJ. GASTROREZ.</fullName>
+                <default>false</default>
+                <label>DRAJ. GASTROREZ.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. CONC. SI SOL. PT. SOL. PERF.</fullName>
+                <default>false</default>
+                <label>PULB. PT. CONC. SI SOL. PT. SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT., SOL</fullName>
+                <default>false</default>
+                <label>PIC. OFT., SOL</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT., SUSP.</fullName>
+                <default>false</default>
+                <label>PIC. OFT., SUSP.</label>
+            </value>
+            <value>
+                <fullName>PIC. ORALE/SOL. ORALA</fullName>
+                <default>false</default>
+                <label>PIC. ORALE/SOL. ORALA</label>
+            </value>
+            <value>
+                <fullName>GUMA ORALA</fullName>
+                <default>false</default>
+                <label>GUMA ORALA</label>
+            </value>
+            <value>
+                <fullName>SPUMA RECTALA</fullName>
+                <default>false</default>
+                <label>SPUMA RECTALA</label>
+            </value>
+            <value>
+                <fullName>CAPS. CU PELETE GASTROREZ.</fullName>
+                <default>false</default>
+                <label>CAPS. CU PELETE GASTROREZ.</label>
+            </value>
+            <value>
+                <fullName>GRANULE GASTROREZ.</fullName>
+                <default>false</default>
+                <label>GRANULE GASTROREZ.</label>
+            </value>
+            <value>
+                <fullName>PULBERE ORALA</fullName>
+                <default>false</default>
+                <label>PULBERE ORALA</label>
+            </value>
+            <value>
+                <fullName>SUSP. INJ. CU ELIB. PREL. IN STILOU INJECOTR (PEN)</fullName>
+                <default>false</default>
+                <label>SUSP. INJ. CU ELIB. PREL. IN STILOU INJECOTR (PEN)</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SUSP. ORALA, PLIC</fullName>
+                <default>false</default>
+                <label>PULB. PT. SUSP. ORALA, PLIC</label>
+            </value>
+            <value>
+                <fullName>COMPR. MAST.</fullName>
+                <default>false</default>
+                <label>COMPR. MAST.</label>
+            </value>
+            <value>
+                <fullName>GEL GINGIVAL</fullName>
+                <default>false</default>
+                <label>GEL GINGIVAL</label>
+            </value>
+            <value>
+                <fullName>SOL. ORALA IN RECIPIENT UNIDOZA</fullName>
+                <default>false</default>
+                <label>SOL. ORALA IN RECIPIENT UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>LICHID ORAL</fullName>
+                <default>false</default>
+                <label>LICHID ORAL</label>
+            </value>
+            <value>
+                <fullName>COMPR. VAG.</fullName>
+                <default>false</default>
+                <label>COMPR. VAG.</label>
+            </value>
+            <value>
+                <fullName>CAPS. MOI VAG.</fullName>
+                <default>false</default>
+                <label>CAPS. MOI VAG.</label>
+            </value>
+            <value>
+                <fullName>COMPR. DISP.</fullName>
+                <default>false</default>
+                <label>COMPR. DISP.</label>
+            </value>
+            <value>
+                <fullName>PULB+SOLV. PT. SOL. PERF.</fullName>
+                <default>false</default>
+                <label>PULB+SOLV. PT. SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>SPRAY BUCOFARINGIAN, SOL.</fullName>
+                <default>false</default>
+                <label>SPRAY BUCOFARINGIAN, SOL.</label>
+            </value>
+            <value>
+                <fullName>COMPR. DE SUPT</fullName>
+                <default>false</default>
+                <label>COMPR. DE SUPT</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SOL. INJ. SAU PERF.</fullName>
+                <default>false</default>
+                <label>PULB. PT. SOL. INJ. SAU PERF.</label>
+            </value>
+            <value>
+                <fullName>PULB.+SOLV. PT. SOL. INJ. I.M./I.V.</fullName>
+                <default>false</default>
+                <label>PULB.+SOLV. PT. SOL. INJ. I.M./I.V.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SOL. INJ./PERF. I.M./I.V.</fullName>
+                <default>false</default>
+                <label>PULB. PT. SOL. INJ./PERF. I.M./I.V.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SOL. INJ./PERF.I.M./I.V.</fullName>
+                <default>false</default>
+                <label>PULB. PT. SOL. INJ./PERF.I.M./I.V.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SUSP. (I.M)/SOL. INJ. ( I.M.,I.V.)</fullName>
+                <default>false</default>
+                <label>PULB. PT. SUSP. (I.M)/SOL. INJ. ( I.M.,I.V.)</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SUSP. INJ. I.M./SOL. INJ. I.V.</fullName>
+                <default>false</default>
+                <label>PULB. PT. SUSP. INJ. I.M./SOL. INJ. I.V.</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ./CONC. PT. SOL. PERF.</fullName>
+                <default>false</default>
+                <label>SOL. INJ./CONC. PT. SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>COMPR. PT. DISP. ORALA</fullName>
+                <default>false</default>
+                <label>COMPR. PT. DISP. ORALA</label>
+            </value>
+            <value>
+                <fullName>PICATURI AURICULARE, SOL. IN RECIPIENT UNIDOZA</fullName>
+                <default>false</default>
+                <label>PICATURI AURICULARE, SOL. IN RECIPIENT UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>PICATURI AURICULARE, SOL.</fullName>
+                <default>false</default>
+                <label>PICATURI AURICULARE, SOL.</label>
+            </value>
+            <value>
+                <fullName>PASTA CUTANATA</fullName>
+                <default>false</default>
+                <label>PASTA CUTANATA</label>
+            </value>
+            <value>
+                <fullName>COMPR. FILM</fullName>
+                <default>false</default>
+                <label>COMPR. FILM</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT./AURIC., SOL.</fullName>
+                <default>false</default>
+                <label>PIC. OFT./AURIC., SOL.</label>
+            </value>
+            <value>
+                <fullName>APA DE GURA</fullName>
+                <default>false</default>
+                <label>APA DE GURA</label>
+            </value>
+            <value>
+                <fullName>SOL. INHALAT PRESURIZATA</fullName>
+                <default>false</default>
+                <label>SOL. INHALAT PRESURIZATA</label>
+            </value>
+            <value>
+                <fullName>PICATURI ORALE, SOL.</fullName>
+                <default>false</default>
+                <label>PICATURI ORALE, SOL.</label>
+            </value>
+            <value>
+                <fullName>SPRAY CUTANAT SOL.</fullName>
+                <default>false</default>
+                <label>SPRAY CUTANAT SOL.</label>
+            </value>
+            <value>
+                <fullName>PULB.+SOLV. PT. SOL. INJ./PERF.</fullName>
+                <default>false</default>
+                <label>PULB.+SOLV. PT. SOL. INJ./PERF.</label>
+            </value>
+            <value>
+                <fullName>PULB. + SOLV. PT. SOL. OFT.</fullName>
+                <default>false</default>
+                <label>PULB. + SOLV. PT. SOL. OFT.</label>
+            </value>
+            <value>
+                <fullName>CAPS. CU PULB. DE INHAL.</fullName>
+                <default>false</default>
+                <label>CAPS. CU PULB. DE INHAL.</label>
+            </value>
+            <value>
+                <fullName>CONC. PT. DISPERSIE INJECTABILA</fullName>
+                <default>false</default>
+                <label>CONC. PT. DISPERSIE INJECTABILA</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT., SOL., RECIPIENT UNIDOZA</fullName>
+                <default>false</default>
+                <label>PIC. OFT., SOL., RECIPIENT UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>SUSPENSIE INJECTABILA</fullName>
+                <default>false</default>
+                <label>SUSPENSIE INJECTABILA</label>
+            </value>
+            <value>
+                <fullName>GEL VAGINAL</fullName>
+                <default>false</default>
+                <label>GEL VAGINAL</label>
+            </value>
+            <value>
+                <fullName>SUSP. INTRATRAHEALA</fullName>
+                <default>false</default>
+                <label>SUSP. INTRATRAHEALA</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. SUBCUTANA</fullName>
+                <default>false</default>
+                <label>SOL. INJ. SUBCUTANA</label>
+            </value>
+            <value>
+                <fullName>CAPS. GASTROREZ.</fullName>
+                <default>false</default>
+                <label>CAPS. GASTROREZ.</label>
+            </value>
+            <value>
+                <fullName>SOL INJ. IN CARTUS</fullName>
+                <default>false</default>
+                <label>SOL INJ. IN CARTUS</label>
+            </value>
+            <value>
+                <fullName>CAPS. CU ELIB. PREL.</fullName>
+                <default>false</default>
+                <label>CAPS. CU ELIB. PREL.</label>
+            </value>
+            <value>
+                <fullName>COMPR. PT. DISPERSIE ORALA</fullName>
+                <default>false</default>
+                <label>COMPR. PT. DISPERSIE ORALA</label>
+            </value>
+            <value>
+                <fullName>SOL. DENT.</fullName>
+                <default>false</default>
+                <label>SOL. DENT.</label>
+            </value>
+            <value>
+                <fullName>SPRAY CUTANAT, SOL.</fullName>
+                <default>false</default>
+                <label>SPRAY CUTANAT, SOL.</label>
+            </value>
+            <value>
+                <fullName>GEL OFT. IN RECIPIENT UNIDOZA</fullName>
+                <default>false</default>
+                <label>GEL OFT. IN RECIPIENT UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>SOL. PT. DIAL. PERIT.</fullName>
+                <default>false</default>
+                <label>SOL. PT. DIAL. PERIT.</label>
+            </value>
+            <value>
+                <fullName>COMPR. CU ELIB. MODIFICATA</fullName>
+                <default>false</default>
+                <label>COMPR. CU ELIB. MODIFICATA</label>
+            </value>
+            <value>
+                <fullName>SOL. RECTALA</fullName>
+                <default>false</default>
+                <label>SOL. RECTALA</label>
+            </value>
+            <value>
+                <fullName>SUSP. ORALA IN PLIC</fullName>
+                <default>false</default>
+                <label>SUSP. ORALA IN PLIC</label>
+            </value>
+            <value>
+                <fullName>PICATURI OFT., SOL.</fullName>
+                <default>false</default>
+                <label>PICATURI OFT., SOL.</label>
+            </value>
+            <value>
+                <fullName>SPUMA CUT.</fullName>
+                <default>false</default>
+                <label>SPUMA CUT.</label>
+            </value>
+            <value>
+                <fullName>PICATURI ORALE-SOL.</fullName>
+                <default>false</default>
+                <label>PICATURI ORALE-SOL.</label>
+            </value>
+            <value>
+                <fullName>GAZ MEDICINAL, LICHEFIAT</fullName>
+                <default>false</default>
+                <label>GAZ MEDICINAL, LICHEFIAT</label>
+            </value>
+            <value>
+                <fullName>PULB. SI SOLV. PT. SUSP. INJ. CU ELIB. PREL.</fullName>
+                <default>false</default>
+                <label>PULB. SI SOLV. PT. SUSP. INJ. CU ELIB. PREL.</label>
+            </value>
+            <value>
+                <fullName>COMPR. DIVIZ.</fullName>
+                <default>false</default>
+                <label>COMPR. DIVIZ.</label>
+            </value>
+            <value>
+                <fullName>CONC. + SOLV. PT. SOL. PERF.</fullName>
+                <default>false</default>
+                <label>CONC. + SOLV. PT. SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>PASTILE</fullName>
+                <default>false</default>
+                <label>PASTILE</label>
+            </value>
+            <value>
+                <fullName>SISTEM CU CEDARE INTRAUTERINA</fullName>
+                <default>false</default>
+                <label>SISTEM CU CEDARE INTRAUTERINA</label>
+            </value>
+            <value>
+                <fullName>SOL INJ. IN FLAC. MULTIDOZA</fullName>
+                <default>false</default>
+                <label>SOL INJ. IN FLAC. MULTIDOZA</label>
+            </value>
+            <value>
+                <fullName>SOL INJ. IN FLAC. UNIDOZA</fullName>
+                <default>false</default>
+                <label>SOL INJ. IN FLAC. UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. MULTIDOZA</fullName>
+                <default>false</default>
+                <label>SOL. INJ. MULTIDOZA</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. UNIDOZA</fullName>
+                <default>false</default>
+                <label>SOL. INJ. UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>UNGUENT RECTAL</fullName>
+                <default>false</default>
+                <label>UNGUENT RECTAL</label>
+            </value>
+            <value>
+                <fullName>GEL INT.</fullName>
+                <default>false</default>
+                <label>GEL INT.</label>
+            </value>
+            <value>
+                <fullName>PULB.+SOLV. SOL. PERF.</fullName>
+                <default>false</default>
+                <label>PULB.+SOLV. SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SOL. PERF./INJ.</fullName>
+                <default>false</default>
+                <label>PULB. PT. SOL. PERF./INJ.</label>
+            </value>
+            <value>
+                <fullName>PULB. ORALA</fullName>
+                <default>false</default>
+                <label>PULB. ORALA</label>
+            </value>
+            <value>
+                <fullName>GAZ MEDICINAL, COMPRIMAT</fullName>
+                <default>false</default>
+                <label>GAZ MEDICINAL, COMPRIMAT</label>
+            </value>
+            <value>
+                <fullName>SOL INJ. IN STILOU PREUMPLUT</fullName>
+                <default>false</default>
+                <label>SOL INJ. IN STILOU PREUMPLUT</label>
+            </value>
+            <value>
+                <fullName>PIC. ORALE, EMULSIE</fullName>
+                <default>false</default>
+                <label>PIC. ORALE, EMULSIE</label>
+            </value>
+            <value>
+                <fullName>GEL TRANSDERMIC</fullName>
+                <default>false</default>
+                <label>GEL TRANSDERMIC</label>
+            </value>
+            <value>
+                <fullName>EMULSIE INJ.</fullName>
+                <default>false</default>
+                <label>EMULSIE INJ.</label>
+            </value>
+            <value>
+                <fullName>COMPR</fullName>
+                <default>false</default>
+                <label>COMPR</label>
+            </value>
+            <value>
+                <fullName>CONC. PT. SOL. ORALA</fullName>
+                <default>false</default>
+                <label>CONC. PT. SOL. ORALA</label>
+            </value>
+            <value>
+                <fullName>GRAN. SUSP. ORALA</fullName>
+                <default>false</default>
+                <label>GRAN. SUSP. ORALA</label>
+            </value>
+            <value>
+                <fullName>SPRAY BUCOFARINGIAN,SOL</fullName>
+                <default>false</default>
+                <label>SPRAY BUCOFARINGIAN,SOL</label>
+            </value>
+            <value>
+                <fullName>COMPR. DE SUPT.</fullName>
+                <default>false</default>
+                <label>COMPR. DE SUPT.</label>
+            </value>
+            <value>
+                <fullName>COMPR. DE SUPT CU APLICATOR BUCOFARINGIAN INTEGRAT</fullName>
+                <default>false</default>
+                <label>COMPR. DE SUPT CU APLICATOR BUCOFARINGIAN INTEGRAT</label>
+            </value>
+            <value>
+                <fullName>SOL INJ. IN FLAC.</fullName>
+                <default>false</default>
+                <label>SOL INJ. IN FLAC.</label>
+            </value>
+            <value>
+                <fullName>SOL.INJ.</fullName>
+                <default>false</default>
+                <label>SOL.INJ.</label>
+            </value>
+            <value>
+                <fullName>KIT PT. PREP. RADIOFARMACEUTIC</fullName>
+                <default>false</default>
+                <label>KIT PT. PREP. RADIOFARMACEUTIC</label>
+            </value>
+            <value>
+                <fullName>CAPS. PT. UZ TERAPEUTIC</fullName>
+                <default>false</default>
+                <label>CAPS. PT. UZ TERAPEUTIC</label>
+            </value>
+            <value>
+                <fullName>PICATURI OFT.-SOL., IN RECIPIENT UNIDOZA</fullName>
+                <default>false</default>
+                <label>PICATURI OFT.-SOL., IN RECIPIENT UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>SPRAY NAZAL SUSP.</fullName>
+                <default>false</default>
+                <label>SPRAY NAZAL SUSP.</label>
+            </value>
+            <value>
+                <fullName>SUSP. INHAL. PRIN NEBULIZATOR</fullName>
+                <default>false</default>
+                <label>SUSP. INHAL. PRIN NEBULIZATOR</label>
+            </value>
+            <value>
+                <fullName>CONC. PT. SOL. INJ. SAU PERF.</fullName>
+                <default>false</default>
+                <label>CONC. PT. SOL. INJ. SAU PERF.</label>
+            </value>
+            <value>
+                <fullName>SPRAY NAZ., SUSP.</fullName>
+                <default>false</default>
+                <label>SPRAY NAZ., SUSP.</label>
+            </value>
+            <value>
+                <fullName>SOL.INJ./INHAL.NEBULIZ./INSTILATIE ENDOTRAHEOBRON.</fullName>
+                <default>false</default>
+                <label>SOL.INJ./INHAL.NEBULIZ./INSTILATIE ENDOTRAHEOBRON.</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. SAU PERF.</fullName>
+                <default>false</default>
+                <label>SOL. INJ. SAU PERF.</label>
+            </value>
+            <value>
+                <fullName>PULB. DE INHALAT CU DOZE PRESATBILITE</fullName>
+                <default>false</default>
+                <label>PULB. DE INHALAT CU DOZE PRESATBILITE</label>
+            </value>
+            <value>
+                <fullName>CAPS. ELIB. MODIF.</fullName>
+                <default>false</default>
+                <label>CAPS. ELIB. MODIF.</label>
+            </value>
+            <value>
+                <fullName>SPRAY CUT. SOL.</fullName>
+                <default>false</default>
+                <label>SPRAY CUT. SOL.</label>
+            </value>
+            <value>
+                <fullName>PIC. OFTALMICE CU ELIB. PREL.</fullName>
+                <default>false</default>
+                <label>PIC. OFTALMICE CU ELIB. PREL.</label>
+            </value>
+            <value>
+                <fullName>GRANULE PT. SOL. ORALA IN PLIC</fullName>
+                <default>false</default>
+                <label>GRANULE PT. SOL. ORALA IN PLIC</label>
+            </value>
+            <value>
+                <fullName>COMPR. CU ELIB. MODIF.</fullName>
+                <default>false</default>
+                <label>COMPR. CU ELIB. MODIF.</label>
+            </value>
+            <value>
+                <fullName>CONC. PT. SOL. PERF./INJ.</fullName>
+                <default>false</default>
+                <label>CONC. PT. SOL. PERF./INJ.</label>
+            </value>
+            <value>
+                <fullName>PULB. DE INHAL. CAPSULA</fullName>
+                <default>false</default>
+                <label>PULB. DE INHAL. CAPSULA</label>
+            </value>
+            <value>
+                <fullName>PASTA DENTARA</fullName>
+                <default>false</default>
+                <label>PASTA DENTARA</label>
+            </value>
+            <value>
+                <fullName>GRAN. PT. SOL. ORALA IN PLIC</fullName>
+                <default>false</default>
+                <label>GRAN. PT. SOL. ORALA IN PLIC</label>
+            </value>
+            <value>
+                <fullName>CREMA VAG.</fullName>
+                <default>false</default>
+                <label>CREMA VAG.</label>
+            </value>
+            <value>
+                <fullName>CAPS. VAG.</fullName>
+                <default>false</default>
+                <label>CAPS. VAG.</label>
+            </value>
+            <value>
+                <fullName>PULB.+SOLV. PT. SOL. INJ. SAU PERF.</fullName>
+                <default>false</default>
+                <label>PULB.+SOLV. PT. SOL. INJ. SAU PERF.</label>
+            </value>
+            <value>
+                <fullName>PULB. + SOLV. PT. SOL. INJ./PERF.</fullName>
+                <default>false</default>
+                <label>PULB. + SOLV. PT. SOL. INJ./PERF.</label>
+            </value>
+            <value>
+                <fullName>SOL INJ. IN PEN PREUMPLUT</fullName>
+                <default>false</default>
+                <label>SOL INJ. IN PEN PREUMPLUT</label>
+            </value>
+            <value>
+                <fullName>COMPR. + CAPS.</fullName>
+                <default>false</default>
+                <label>COMPR. + CAPS.</label>
+            </value>
+            <value>
+                <fullName>SOL. PERF. SUBCUTANA</fullName>
+                <default>false</default>
+                <label>SOL. PERF. SUBCUTANA</label>
+            </value>
+            <value>
+                <fullName>PIC. ORALE,SOL.</fullName>
+                <default>false</default>
+                <label>PIC. ORALE,SOL.</label>
+            </value>
+            <value>
+                <fullName>CAPS. MOI MASTICABILE</fullName>
+                <default>false</default>
+                <label>CAPS. MOI MASTICABILE</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT., EMULSIE</fullName>
+                <default>false</default>
+                <label>PIC. OFT., EMULSIE</label>
+            </value>
+            <value>
+                <fullName>SOL. DE INHALAT PRIN NEBULIZATOR</fullName>
+                <default>false</default>
+                <label>SOL. DE INHALAT PRIN NEBULIZATOR</label>
+            </value>
+            <value>
+                <fullName>PULB.+SOLV. PT. SOL. INJ.</fullName>
+                <default>false</default>
+                <label>PULB.+SOLV. PT. SOL. INJ.</label>
+            </value>
+            <value>
+                <fullName>COMPR. CU ELIB. PRELUNGITA</fullName>
+                <default>false</default>
+                <label>COMPR. CU ELIB. PRELUNGITA</label>
+            </value>
+            <value>
+                <fullName>PULB. SI SUSP. PT. SUSP. INJ.</fullName>
+                <default>false</default>
+                <label>PULB. SI SUSP. PT. SUSP. INJ.</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. IN FLACOANE</fullName>
+                <default>false</default>
+                <label>SOL. INJ. IN FLACOANE</label>
+            </value>
+            <value>
+                <fullName>GAZ INHAL.</fullName>
+                <default>false</default>
+                <label>GAZ INHAL.</label>
+            </value>
+            <value>
+                <fullName>EMULSIE PERF.</fullName>
+                <default>false</default>
+                <label>EMULSIE PERF.</label>
+            </value>
+            <value>
+                <fullName>SOL. CUT./SOL. BUCOFARINGIANA</fullName>
+                <default>false</default>
+                <label>SOL. CUT./SOL. BUCOFARINGIANA</label>
+            </value>
+            <value>
+                <fullName>CAPS. PT. DIAGNOSTIC</fullName>
+                <default>false</default>
+                <label>CAPS. PT. DIAGNOSTIC</label>
+            </value>
+            <value>
+                <fullName>SOL. DE INHAL. PRESURIZATA</fullName>
+                <default>false</default>
+                <label>SOL. DE INHAL. PRESURIZATA</label>
+            </value>
+            <value>
+                <fullName>SIST. CU CEDARE INTRAUTERINA</fullName>
+                <default>false</default>
+                <label>SIST. CU CEDARE INTRAUTERINA</label>
+            </value>
+            <value>
+                <fullName>PULB. PT.CONC. PT. SOL. PERF.</fullName>
+                <default>false</default>
+                <label>PULB. PT.CONC. PT. SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>GRANULE</fullName>
+                <default>false</default>
+                <label>GRANULE</label>
+            </value>
+            <value>
+                <fullName>GEL CAPILAR</fullName>
+                <default>false</default>
+                <label>GEL CAPILAR</label>
+            </value>
+            <value>
+                <fullName>LAC UNGHII MEDICAMENTOS</fullName>
+                <default>false</default>
+                <label>LAC UNGHII MEDICAMENTOS</label>
+            </value>
+            <value>
+                <fullName>COMPR. SOLUBILE</fullName>
+                <default>false</default>
+                <label>COMPR. SOLUBILE</label>
+            </value>
+            <value>
+                <fullName>DISPERSIE PERF.</fullName>
+                <default>false</default>
+                <label>DISPERSIE PERF.</label>
+            </value>
+            <value>
+                <fullName>COMPR. MAST./DISP.</fullName>
+                <default>false</default>
+                <label>COMPR. MAST./DISP.</label>
+            </value>
+            <value>
+                <fullName>PIC. ORALE, SUSP.</fullName>
+                <default>false</default>
+                <label>PIC. ORALE, SUSP.</label>
+            </value>
+            <value>
+                <fullName>GEL INTESTINAL</fullName>
+                <default>false</default>
+                <label>GEL INTESTINAL</label>
+            </value>
+            <value>
+                <fullName>SPRAY TRANSDERMIC, SOL.</fullName>
+                <default>false</default>
+                <label>SPRAY TRANSDERMIC, SOL.</label>
+            </value>
+            <value>
+                <fullName>IMPLANT</fullName>
+                <default>false</default>
+                <label>IMPLANT</label>
+            </value>
+            <value>
+                <fullName>GRANULE DRAJEFIATE IN PLIC</fullName>
+                <default>false</default>
+                <label>GRANULE DRAJEFIATE IN PLIC</label>
+            </value>
+            <value>
+                <fullName>SPRAY, SOL.</fullName>
+                <default>false</default>
+                <label>SPRAY, SOL.</label>
+            </value>
+            <value>
+                <fullName>SOL. PT. DISP. INJ./PERF.</fullName>
+                <default>false</default>
+                <label>SOL. PT. DISP. INJ./PERF.</label>
+            </value>
+            <value>
+                <fullName>PULB+SOLV. PT. SUSP. INJ. CU ELIB. PREL.</fullName>
+                <default>false</default>
+                <label>PULB+SOLV. PT. SUSP. INJ. CU ELIB. PREL.</label>
+            </value>
+            <value>
+                <fullName>PULB. + SOLV. PT. SUSP. INJ.</fullName>
+                <default>false</default>
+                <label>PULB. + SOLV. PT. SUSP. INJ.</label>
+            </value>
+            <value>
+                <fullName>PULB. + SOLV. PT. SUSP. INJ. IN SERINGA PREUMPLUTA</fullName>
+                <default>false</default>
+                <label>PULB. + SOLV. PT. SUSP. INJ. IN SERINGA PREUMPLUTA</label>
+            </value>
+            <value>
+                <fullName>SOL. VAGINALA</fullName>
+                <default>false</default>
+                <label>SOL. VAGINALA</label>
+            </value>
+            <value>
+                <fullName>COMPR.+COMPR. VAG.</fullName>
+                <default>false</default>
+                <label>COMPR.+COMPR. VAG.</label>
+            </value>
+            <value>
+                <fullName>PULB. SI SOLV. PT. SOL. INJ./PERF.</fullName>
+                <default>false</default>
+                <label>PULB. SI SOLV. PT. SOL. INJ./PERF.</label>
+            </value>
+            <value>
+                <fullName>PULB. SI SOL. PT. SOL. INJ.</fullName>
+                <default>false</default>
+                <label>PULB. SI SOL. PT. SOL. INJ.</label>
+            </value>
+            <value>
+                <fullName>CAPS. CU MINI-COMPR. GASTROREZ.</fullName>
+                <default>false</default>
+                <label>CAPS. CU MINI-COMPR. GASTROREZ.</label>
+            </value>
+            <value>
+                <fullName>SOL INJ./PERF. IN SERINGA PREUMPLUTA</fullName>
+                <default>false</default>
+                <label>SOL INJ./PERF. IN SERINGA PREUMPLUTA</label>
+            </value>
+            <value>
+                <fullName>SOLUTIE BUCOFARINGIANA</fullName>
+                <default>false</default>
+                <label>SOLUTIE BUCOFARINGIANA</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. /PERF. IN SERINGA PREUMPLUTA</fullName>
+                <default>false</default>
+                <label>SOL. INJ. /PERF. IN SERINGA PREUMPLUTA</label>
+            </value>
+            <value>
+                <fullName>SOL. ORALA PT. UZ TERAPEUTIC</fullName>
+                <default>false</default>
+                <label>SOL. ORALA PT. UZ TERAPEUTIC</label>
+            </value>
+            <value>
+                <fullName>CAPS. PT UZ TERAPEUTIC</fullName>
+                <default>false</default>
+                <label>CAPS. PT UZ TERAPEUTIC</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT., SOL., IN RECIPIENT UNIDOZA</fullName>
+                <default>false</default>
+                <label>PIC. OFT., SOL., IN RECIPIENT UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>GAZ MEDICINAL COMPRIMAT</fullName>
+                <default>false</default>
+                <label>GAZ MEDICINAL COMPRIMAT</label>
+            </value>
+            <value>
+                <fullName>GENERATOR DE RADIONUCLIZI</fullName>
+                <default>false</default>
+                <label>GENERATOR DE RADIONUCLIZI</label>
+            </value>
+            <value>
+                <fullName>PULB. + AMESTC. PT. CONC. PT.DISP.LIPOZOM.PT.PERF</fullName>
+                <default>false</default>
+                <label>PULB. + AMESTC. PT. CONC. PT.DISP.LIPOZOM.PT.PERF</label>
+            </value>
+            <value>
+                <fullName>KIT PT. PREP. RADIOFARMACEUTICA</fullName>
+                <default>false</default>
+                <label>KIT PT. PREP. RADIOFARMACEUTICA</label>
+            </value>
+            <value>
+                <fullName>TRUSA (KIT) PT. PREPARATE RADIOFARMACEUTICE</fullName>
+                <default>false</default>
+                <label>TRUSA (KIT) PT. PREPARATE RADIOFARMACEUTICE</label>
+            </value>
+            <value>
+                <fullName>KIT (TRUSA) PT. PREP. RADIOFARMACEUTICE</fullName>
+                <default>false</default>
+                <label>KIT (TRUSA) PT. PREP. RADIOFARMACEUTICE</label>
+            </value>
+            <value>
+                <fullName>PULB.+SOLV.PT.SOL.INJ.</fullName>
+                <default>false</default>
+                <label>PULB.+SOLV.PT.SOL.INJ.</label>
+            </value>
+            <value>
+                <fullName>SOL. PT. HEMOFILTRARE</fullName>
+                <default>false</default>
+                <label>SOL. PT. HEMOFILTRARE</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT., SOL IN FLAC. UNIDOZA</fullName>
+                <default>false</default>
+                <label>PIC. OFT., SOL IN FLAC. UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>GRAN. GASTROREZ. PT. SUSP.ORALA</fullName>
+                <default>false</default>
+                <label>GRAN. GASTROREZ. PT. SUSP.ORALA</label>
+            </value>
+            <value>
+                <fullName>PULBERE SI GEL PT GEL</fullName>
+                <default>false</default>
+                <label>PULBERE SI GEL PT GEL</label>
+            </value>
+            <value>
+                <fullName>GUMA MEDICAMENTOASA MAST.</fullName>
+                <default>false</default>
+                <label>GUMA MEDICAMENTOASA MAST.</label>
+            </value>
+            <value>
+                <fullName>PULB+SOLV. PT. SOL. INJ. IN SERINGA PREUMPLUTA</fullName>
+                <default>false</default>
+                <label>PULB+SOLV. PT. SOL. INJ. IN SERINGA PREUMPLUTA</label>
+            </value>
+            <value>
+                <fullName>GAZ MED, LICHEF</fullName>
+                <default>false</default>
+                <label>GAZ MED, LICHEF</label>
+            </value>
+            <value>
+                <fullName>SPRAY SUBLINGUAL</fullName>
+                <default>false</default>
+                <label>SPRAY SUBLINGUAL</label>
+            </value>
+            <value>
+                <fullName>LIOF. + SOLV. PT. SOL.</fullName>
+                <default>false</default>
+                <label>LIOF. + SOLV. PT. SOL.</label>
+            </value>
+            <value>
+                <fullName>SOL. PERF. IN SERINGA PREUMPLUTA</fullName>
+                <default>false</default>
+                <label>SOL. PERF. IN SERINGA PREUMPLUTA</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. IN STILOU INJ. PREUMPLUT</fullName>
+                <default>false</default>
+                <label>SOL. INJ. IN STILOU INJ. PREUMPLUT</label>
+            </value>
+            <value>
+                <fullName>EMPLASTRU MED.</fullName>
+                <default>false</default>
+                <label>EMPLASTRU MED.</label>
+            </value>
+            <value>
+                <fullName>SIST. CU CEDARE VAGINALA</fullName>
+                <default>false</default>
+                <label>SIST. CU CEDARE VAGINALA</label>
+            </value>
+            <value>
+                <fullName>SPRAY CUT., SOL.</fullName>
+                <default>false</default>
+                <label>SPRAY CUT., SOL.</label>
+            </value>
+            <value>
+                <fullName>COMPR. + COMPR. FILM.</fullName>
+                <default>false</default>
+                <label>COMPR. + COMPR. FILM.</label>
+            </value>
+            <value>
+                <fullName>CAPS. CU PULB.INHAL.</fullName>
+                <default>false</default>
+                <label>CAPS. CU PULB.INHAL.</label>
+            </value>
+            <value>
+                <fullName>CONC. PT. DISPERSIE PERF.</fullName>
+                <default>false</default>
+                <label>CONC. PT. DISPERSIE PERF.</label>
+            </value>
+            <value>
+                <fullName>CONC. PT. SOL. INJ.</fullName>
+                <default>false</default>
+                <label>CONC. PT. SOL. INJ.</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT./AURIC./NAZALE SOL.</fullName>
+                <default>false</default>
+                <label>PIC. OFT./AURIC./NAZALE SOL.</label>
+            </value>
+            <value>
+                <fullName>SOL INJ. IN SERINGA PRE-UMPLUTA</fullName>
+                <default>false</default>
+                <label>SOL INJ. IN SERINGA PRE-UMPLUTA</label>
+            </value>
+            <value>
+                <fullName>MINICOMPR. ELIB. PREL.</fullName>
+                <default>false</default>
+                <label>MINICOMPR. ELIB. PREL.</label>
+            </value>
+            <value>
+                <fullName>GRANULE HOMEOPATE</fullName>
+                <default>false</default>
+                <label>GRANULE HOMEOPATE</label>
+            </value>
+            <value>
+                <fullName>GRAN. HOMEOPATE</fullName>
+                <default>false</default>
+                <label>GRAN. HOMEOPATE</label>
+            </value>
+            <value>
+                <fullName>PICATURI AURICULARE-SOL.</fullName>
+                <default>false</default>
+                <label>PICATURI AURICULARE-SOL.</label>
+            </value>
+            <value>
+                <fullName>GAZ MEDICINAL CRIOGENIC</fullName>
+                <default>false</default>
+                <label>GAZ MEDICINAL CRIOGENIC</label>
+            </value>
+            <value>
+                <fullName>LICHID</fullName>
+                <default>false</default>
+                <label>LICHID</label>
+            </value>
+            <value>
+                <fullName>GAZ</fullName>
+                <default>false</default>
+                <label>GAZ</label>
+            </value>
+            <value>
+                <fullName>GAZ MEDICINAL CRIOGENIC IN VASE CRIOGENICE MOBILE</fullName>
+                <default>false</default>
+                <label>GAZ MEDICINAL CRIOGENIC IN VASE CRIOGENICE MOBILE</label>
+            </value>
+            <value>
+                <fullName>SPRAY CUT. - SUSP.</fullName>
+                <default>false</default>
+                <label>SPRAY CUT. - SUSP.</label>
+            </value>
+            <value>
+                <fullName>SUSP. INJ. CU ELIB. PREL.</fullName>
+                <default>false</default>
+                <label>SUSP. INJ. CU ELIB. PREL.</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. IN INJECTOR PREUMPLUT</fullName>
+                <default>false</default>
+                <label>SOL. INJ. IN INJECTOR PREUMPLUT</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. CONC. PT. SOL. INJ.</fullName>
+                <default>false</default>
+                <label>PULB. PT. CONC. PT. SOL. INJ.</label>
+            </value>
+            <value>
+                <fullName>GRAN. ELIB. PREL.</fullName>
+                <default>false</default>
+                <label>GRAN. ELIB. PREL.</label>
+            </value>
+            <value>
+                <fullName>GEL ORAL</fullName>
+                <default>false</default>
+                <label>GEL ORAL</label>
+            </value>
+            <value>
+                <fullName>SOL. PERF./SOL.ORALA</fullName>
+                <default>false</default>
+                <label>SOL. PERF./SOL.ORALA</label>
+            </value>
+            <value>
+                <fullName>SOL. PT. HEMODIALIZA SI HEMOFILTRARE</fullName>
+                <default>false</default>
+                <label>SOL. PT. HEMODIALIZA SI HEMOFILTRARE</label>
+            </value>
+            <value>
+                <fullName>SPRAY NAZAL SUSPENSIE</fullName>
+                <default>false</default>
+                <label>SPRAY NAZAL SUSPENSIE</label>
+            </value>
+            <value>
+                <fullName>CREMA RECTALA</fullName>
+                <default>false</default>
+                <label>CREMA RECTALA</label>
+            </value>
+            <value>
+                <fullName>EMULSIE INJ./PERF.</fullName>
+                <default>false</default>
+                <label>EMULSIE INJ./PERF.</label>
+            </value>
+            <value>
+                <fullName>DRAJ. ELIB. PREL.</fullName>
+                <default>false</default>
+                <label>DRAJ. ELIB. PREL.</label>
+            </value>
+            <value>
+                <fullName>EMULSIE PERF./INJ.</fullName>
+                <default>false</default>
+                <label>EMULSIE PERF./INJ.</label>
+            </value>
+            <value>
+                <fullName>SOL. ORALA IN PLIC</fullName>
+                <default>false</default>
+                <label>SOL. ORALA IN PLIC</label>
+            </value>
+            <value>
+                <fullName>PLASTURE CUTANAT</fullName>
+                <default>false</default>
+                <label>PLASTURE CUTANAT</label>
+            </value>
+            <value>
+                <fullName>IMPLANT IN SERINGA PREUMPLUTA</fullName>
+                <default>false</default>
+                <label>IMPLANT IN SERINGA PREUMPLUTA</label>
+            </value>
+            <value>
+                <fullName>PICATURI NAZALE-SOL.</fullName>
+                <default>false</default>
+                <label>PICATURI NAZALE-SOL.</label>
+            </value>
+            <value>
+                <fullName>PIC. NAZALE-SOL.</fullName>
+                <default>false</default>
+                <label>PIC. NAZALE-SOL.</label>
+            </value>
+            <value>
+                <fullName>SOL. PERF. IN SIST. DE ADMINISTRARE</fullName>
+                <default>false</default>
+                <label>SOL. PERF. IN SIST. DE ADMINISTRARE</label>
+            </value>
+            <value>
+                <fullName>PULB. + SUSP. PT. SUSP. ORALA</fullName>
+                <default>false</default>
+                <label>PULB. + SUSP. PT. SUSP. ORALA</label>
+            </value>
+            <value>
+                <fullName>SPRAY NAZ., SOL.</fullName>
+                <default>false</default>
+                <label>SPRAY NAZ., SOL.</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT., SOL., FIOLA UNIDOZA</fullName>
+                <default>false</default>
+                <label>PIC. OFT., SOL., FIOLA UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>SUSP. RECTALA</fullName>
+                <default>false</default>
+                <label>SUSP. RECTALA</label>
+            </value>
+            <value>
+                <fullName>PULB. SI SOLV. PT. SUSP. INJ.</fullName>
+                <default>false</default>
+                <label>PULB. SI SOLV. PT. SUSP. INJ.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. CONC. + SOLV. PT. SOL. PERF.</fullName>
+                <default>false</default>
+                <label>PULB. PT. CONC. + SOLV. PT. SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>LAC UNGHII MEDICINAL</fullName>
+                <default>false</default>
+                <label>LAC UNGHII MEDICINAL</label>
+            </value>
+            <value>
+                <fullName>CAPS. CU PULB. INHAL.</fullName>
+                <default>false</default>
+                <label>CAPS. CU PULB. INHAL.</label>
+            </value>
+            <value>
+                <fullName>SPRAY BUCOFARINGIAN -SOL.</fullName>
+                <default>false</default>
+                <label>SPRAY BUCOFARINGIAN -SOL.</label>
+            </value>
+            <value>
+                <fullName>PIC.NAZ.,SOL</fullName>
+                <default>false</default>
+                <label>PIC.NAZ.,SOL</label>
+            </value>
+            <value>
+                <fullName>LICHID VOLATIL PT. INHALAT</fullName>
+                <default>false</default>
+                <label>LICHID VOLATIL PT. INHALAT</label>
+            </value>
+            <value>
+                <fullName>PULB+SOLV. PT. SUSP. INJ.</fullName>
+                <default>false</default>
+                <label>PULB+SOLV. PT. SUSP. INJ.</label>
+            </value>
+            <value>
+                <fullName>PULB. + SOLV. PT. SOL. INJ. SAU PERF.</fullName>
+                <default>false</default>
+                <label>PULB. + SOLV. PT. SOL. INJ. SAU PERF.</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SOL. INJ./PERF. I V</fullName>
+                <default>false</default>
+                <label>PULB. PT. SOL. INJ./PERF. I V</label>
+            </value>
+            <value>
+                <fullName>PIC. OFT., SOL. IN RECIPIENT UNIDOZA</fullName>
+                <default>false</default>
+                <label>PIC. OFT., SOL. IN RECIPIENT UNIDOZA</label>
+            </value>
+            <value>
+                <fullName>SOL. AURICULARA</fullName>
+                <default>false</default>
+                <label>SOL. AURICULARA</label>
+            </value>
+            <value>
+                <fullName>PIC. BUCOFARINGIENE SOL.</fullName>
+                <default>false</default>
+                <label>PIC. BUCOFARINGIENE SOL.</label>
+            </value>
+            <value>
+                <fullName>PULB+SOLV. PT. SUSP. INJ. CU ELIB.PREL.</fullName>
+                <default>false</default>
+                <label>PULB+SOLV. PT. SUSP. INJ. CU ELIB.PREL.</label>
+            </value>
+            <value>
+                <fullName>PULB. + SOLV. PT. DISP. INJ.</fullName>
+                <default>false</default>
+                <label>PULB. + SOLV. PT. DISP. INJ.</label>
+            </value>
+            <value>
+                <fullName>PICATURI OFT.-SOL.</fullName>
+                <default>false</default>
+                <label>PICATURI OFT.-SOL.</label>
+            </value>
+            <value>
+                <fullName>SOL. OFT.</fullName>
+                <default>false</default>
+                <label>SOL. OFT.</label>
+            </value>
+            <value>
+                <fullName>DISPERSIE INJECTABILA</fullName>
+                <default>false</default>
+                <label>DISPERSIE INJECTABILA</label>
+            </value>
+            <value>
+                <fullName>SOL. DE INHALAT</fullName>
+                <default>false</default>
+                <label>SOL. DE INHALAT</label>
+            </value>
+            <value>
+                <fullName>SPRAY NAZAL, SOLUTIE</fullName>
+                <default>false</default>
+                <label>SPRAY NAZAL, SOLUTIE</label>
+            </value>
+            <value>
+                <fullName>PULBERE DE INHALAT, CAPS.</fullName>
+                <default>false</default>
+                <label>PULBERE DE INHALAT, CAPS.</label>
+            </value>
+            <value>
+                <fullName>PULB.+SOLV. PT. SUSP. INJ. IN SERINGA PREUMPLUTA</fullName>
+                <default>false</default>
+                <label>PULB.+SOLV. PT. SUSP. INJ. IN SERINGA PREUMPLUTA</label>
+            </value>
+            <value>
+                <fullName>MATRICE PENTRU HEMOSTAZA LOCALA</fullName>
+                <default>false</default>
+                <label>MATRICE PENTRU HEMOSTAZA LOCALA</label>
+            </value>
+            <value>
+                <fullName>GRAN. PT. SOL. VAGINALA</fullName>
+                <default>false</default>
+                <label>GRAN. PT. SOL. VAGINALA</label>
+            </value>
+            <value>
+                <fullName>SOL. PT. GARGARISME</fullName>
+                <default>false</default>
+                <label>SOL. PT. GARGARISME</label>
+            </value>
+            <value>
+                <fullName>SPRAY BUCOFARINGIAN</fullName>
+                <default>false</default>
+                <label>SPRAY BUCOFARINGIAN</label>
+            </value>
+            <value>
+                <fullName>PULB+SOLV. PT. SOL. INJ./PERF. SAU SOL. ORALA</fullName>
+                <default>false</default>
+                <label>PULB+SOLV. PT. SOL. INJ./PERF. SAU SOL. ORALA</label>
+            </value>
+            <value>
+                <fullName>KIT PT. PREPARAT RADIOFARMACEUTIC</fullName>
+                <default>false</default>
+                <label>KIT PT. PREPARAT RADIOFARMACEUTIC</label>
+            </value>
+            <value>
+                <fullName>KIT PENTRU PRODUS RADIOFARMACEUTIC</fullName>
+                <default>false</default>
+                <label>KIT PENTRU PRODUS RADIOFARMACEUTIC</label>
+            </value>
+            <value>
+                <fullName>KIT PT. PREP. RADIOFARMACEUTICE</fullName>
+                <default>false</default>
+                <label>KIT PT. PREP. RADIOFARMACEUTICE</label>
+            </value>
+            <value>
+                <fullName>PULB. PT. SOL. INJ./PERF. SAU SOL. ORALA</fullName>
+                <default>false</default>
+                <label>PULB. PT. SOL. INJ./PERF. SAU SOL. ORALA</label>
+            </value>
+            <value>
+                <fullName>CONC. SI SOLV. PT. SOL. PERF.</fullName>
+                <default>false</default>
+                <label>CONC. SI SOLV. PT. SOL. PERF.</label>
+            </value>
+            <value>
+                <fullName>SISTEM CU CEDARE VAGINALA</fullName>
+                <default>false</default>
+                <label>SISTEM CU CEDARE VAGINALA</label>
+            </value>
+            <value>
+                <fullName>COMPR. DISPERSABILE</fullName>
+                <default>false</default>
+                <label>COMPR. DISPERSABILE</label>
+            </value>
+            <value>
+                <fullName>SOL. PT. INHALARE PRIN NEBULIZATOR</fullName>
+                <default>false</default>
+                <label>SOL. PT. INHALARE PRIN NEBULIZATOR</label>
+            </value>
+            <value>
+                <fullName>SOL. PT. NEBULIZATOR</fullName>
+                <default>false</default>
+                <label>SOL. PT. NEBULIZATOR</label>
+            </value>
+            <value>
+                <fullName>PULB. + SOL. PT. SOL. ORALA</fullName>
+                <default>false</default>
+                <label>PULB. + SOL. PT. SOL. ORALA</label>
+            </value>
+            <value>
+                <fullName>PULBERE DE INHALAT</fullName>
+                <default>false</default>
+                <label>PULBERE DE INHALAT</label>
+            </value>
+            <value>
+                <fullName>SUSP. INJ. MULTIDOZA</fullName>
+                <default>false</default>
+                <label>SUSP. INJ. MULTIDOZA</label>
+            </value>
+            <value>
+                <fullName>SOL. INJ. PT. ADM. I.V., ORALA SI CUT.</fullName>
+                <default>false</default>
+                <label>SOL. INJ. PT. ADM. I.V., ORALA SI CUT.</label>
+            </value>
+            <value>
+                <fullName>PICATURI OFT./AURIC.-SOL.</fullName>
+                <default>false</default>
+                <label>PICATURI OFT./AURIC.-SOL.</label>
+            </value>
+            <value>
+                <fullName>EMPLASTRU MEDICAMENTOS</fullName>
+                <default>false</default>
+                <label>EMPLASTRU MEDICAMENTOS</label>
+            </value>
+            <value>
+                <fullName>SPRAY CUTANAT EMULSIE</fullName>
+                <default>false</default>
+                <label>SPRAY CUTANAT EMULSIE</label>
+            </value>
+            <value>
+                <fullName>CREION CUTANAT</fullName>
+                <default>false</default>
+                <label>CREION CUTANAT</label>
+            </value>
+            <value>
+                <fullName>CONC. PT. EMULSIE PERF.</fullName>
+                <default>false</default>
+                <label>CONC. PT. EMULSIE PERF.</label>
+            </value>
+            <value>
+                <fullName>SOLUTIE</fullName>
+                <default>false</default>
+                <label>SOLUTIE</label>
+            </value>
+            <value>
+                <fullName>PULB. + SOLV. SOL. CUT.</fullName>
+                <default>false</default>
+                <label>PULB. + SOLV. SOL. CUT.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

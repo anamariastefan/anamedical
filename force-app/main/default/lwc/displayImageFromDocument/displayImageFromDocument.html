@@ -1,0 +1,12 @@
+<template>
+    <template if:true={documentID}>
+        <lightning-card>
+            <img 
+                src={imageURL} 
+                alt="Object Image"/>
+        </lightning-card>
+    </template>
+    <template if:false={documentID}>
+        <lightning-card  title="Empty Document ID found. Please specify a Document ID."></lightning-card>
+    </template>
+</template>

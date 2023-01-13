@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Mammo</fullName>
+        <default>false</default>
+        <label>Mammo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pulse oximetry</fullName>
+        <default>false</default>
+        <label>Pulse oximetry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vital signs monitor</fullName>
+        <default>false</default>
+        <label>Vital signs monitor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Radiocauter</fullName>
+        <default>false</default>
+        <label>Radiocauter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mobile</fullName>
+        <default>false</default>
+        <label>Mobile</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Resuscitator</fullName>
+        <default>false</default>
+        <label>Resuscitator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Body Plethysmography</fullName>
+        <default>false</default>
+        <label>Body Plethysmography</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Spirometry</fullName>
+        <default>false</default>
+        <label>Spirometry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Stress test</fullName>
+        <default>false</default>
+        <label>Stress test</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unit</fullName>
+        <default>false</default>
+        <label>Unit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ventilator</fullName>
+        <default>false</default>
+        <label>Ventilator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Incubator</fullName>
+        <default>false</default>
+        <label>Incubator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Neonatal Ventilator</fullName>
+        <default>false</default>
+        <label>Neonatal Ventilator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Volumetric pumps</fullName>
+        <default>false</default>
+        <label>Volumetric pumps</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Infusion pumps</fullName>
+        <default>false</default>
+        <label>Infusion pumps</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Logiq</fullName>
+        <default>false</default>
+        <label>Logiq</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Voluson</fullName>
+        <default>false</default>
+        <label>Voluson</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Analizer</fullName>
+        <default>false</default>
+        <label>Analizer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Suction</fullName>
+        <default>false</default>
+        <label>Suction</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pressure Infussor</fullName>
+        <default>false</default>
+        <label>Pressure Infussor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vid Extractor</fullName>
+        <default>false</default>
+        <label>Vid Extractor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Brivo</fullName>
+        <default>false</default>
+        <label>Brivo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AED</fullName>
+        <default>false</default>
+        <label>AED</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Resting</fullName>
+        <default>false</default>
+        <label>Resting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Endoscopy</fullName>
+        <default>false</default>
+        <label>Endoscopy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ergometer</fullName>
+        <default>false</default>
+        <label>Ergometer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Holter ECG</fullName>
+        <default>false</default>
+        <label>Holter ECG</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Holter TA</fullName>
+        <default>false</default>
+        <label>Holter TA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Warming</fullName>
+        <default>false</default>
+        <label>Warming</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vscan</fullName>
+        <default>false</default>
+        <label>Vscan</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Colposcopy</fullName>
+        <default>false</default>
+        <label>Colposcopy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Diagnostic station</fullName>
+        <default>false</default>
+        <label>Diagnostic station</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Craniotomy</fullName>
+        <default>false</default>
+        <label>Craniotomy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CT</fullName>
+        <default>false</default>
+        <label>CT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Motor</fullName>
+        <default>false</default>
+        <label>Motor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fluid Management</fullName>
+        <default>false</default>
+        <label>Fluid Management</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Navigation</fullName>
+        <default>false</default>
+        <label>Navigation</label>
+    </standardValue>
+</StandardValueSet>

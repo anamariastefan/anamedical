@@ -1,0 +1,129 @@
+<apex:page showHeader="false" standardStylesheets="false" renderAs="advanced_PDF" applyBodyTag="false"
+           standardController="Patient_Procedure__c" extensions="Generate_Consent_Controller">
+    <head>
+        <style type="text/css">
+            @page 
+            {
+                /* Page setup*/
+                size: 8.3in 11.7in; /* A4 size*/
+                margin-top: 1.24in;
+                margin-bottom: 0.29in;
+                margin-left: 0.79in;
+                margin-right: 0.47in; 
+                background-image: url('{!$Resource.Word_Background_Picture}');
+             	background-repeat: no-repeat;
+                background-position: right bottom;
+            
+                @top-left {
+                	content: element(header);
+                }
+                
+                /* Put page numbers in the top right corner of each page in the pdf document. */
+                @bottom-center {
+                    content: element(footer);
+                }
+            }
+            body {
+                font-size: 10pt;
+                margin:0px;
+                padding:0px;
+            }
+            form {
+                margin:0px;
+                padding:0px;
+            }
+            div.header {
+                position: running(header);
+                font-size: 8pt;
+            }
+            div.footer {
+                position: running(footer);
+                font-size: 8pt;
+                font-weight: bold;
+            }
+            .invisibletable {
+                border-collapse:collapse;
+                border-spacing: 0; 
+                border: 0px;
+            }
+            hr{
+           		border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body style="font-size: 10pt;">
+        <div class="header">
+            <apex:include pageName="AnaMedicalHeader"/>
+        </div>
+        <!-- Content -->
+        <div style="margin-top: 10px; font-size: 12pt; text-align: center; text-weight: bold;">
+            <b>FORMULAR DE CONSIMTAMANT IN VEDEREA TRATAMENTULUI/OPERATIEI</b>
+        </div>
+        <div style="margin-top: 20px; text-align: justify; text-justify: inter-word; text-indent: 25px;">
+            <p>
+                Subsemnatul, {!currentProcedure.Patient__r.Name}, domiciliat in {!currentProcedure.Patient__r.Location__r.VisitorAddress.Street}, {!currentProcedure.Patient__r.Location__r.VisitorAddress.City}, {!currentProcedure.Patient__r.Location__r.VisitorAddress.State}, legitimat cu B.I/C.I. – {!currentProcedure.Patient__r.ID_Series__c}, in calitate de:
+                <ol>
+                    <li>Pacient internat la Ana Medical</li>
+                    <apex:outputText rendered="{!primaryContact.size>0}">
+                        <li>Reprezentant legal/apartinator (sot, sotie, frate, sora, fiu - in cazul in care pacientul este in incapacitatea de a decide) - {!primaryContact[0].Name}, al pacientului consimt sa urmez operatia/tratamentul urmator: {!currentProcedure.Procedure__r.Procedure_Name__c}</li>
+                    </apex:outputText>
+            	</ol>
+            </p>
+            <p>
+                Natura si scopul, beneficiile si riscurile efectuarii/neefectuarii acestei operatii/tratament, precum si a celorlalte operatiuni terapeutice, mi-au fost explicate pe 
+                intelesul meu de catre: 
+            </p>
+        	<p>
+                Mi s-au prezentat riscurile asociate precum si riscurile imprevizibile (inclusiv riscul oricat de mic de deces) consecintele pe care le presupune tratamentul/interventia,
+                cat si riscurile pe care le impun investigatiile speciale ce fac parte din operatia/tratamentul pe care urmeaza sa il efectuez. Declar ca sunt constient de aceste riscuri
+                si le accept, intrucat scopul interventiei/tratamentului este spre binele meu.
+            </p>
+        	<p>
+                Ca urmare, inteleg necesitatea acestei operatii/tratament pe care doresc sa il efectuez si recunosc ca nu mi se poate da o garantie sau asigurare in ceea ce priveste 
+                rezultatul final.
+            </p>
+        	<p>
+                In cazul in care in timpul interventiei terapeutice apar situatii si conditii neprevazute, care impun proceduri suplimentare fata de cele descrise mai sus ca fiind 
+                acceptate de catre mine (inclusiv transfuzia), accept ca medicul desemnat sa actioneze in baza pregatirii sale profesionale in consecinta doar daca aceste proceduri 
+                sunt absolut justificate din motive medicale si nu numai in interesul meu personal si inspre binele meu.
+            </p>
+        	<p>
+                In scopul realizarii operatiei, consimt de asemenea la administrarea anesteziei ce mi-a fost indicata (generala/alt tip). Riscurile actului anestezic mi-au fost explicate.
+            </p>
+        	<p>
+               In consecinta si in conditiile precizate, imi dau liber si in cunostinta de cauza, consimtamantul la operatia/tratamentul prezentat.
+            </p>
+        	<p>
+               Certific ca am citit, am inteles si accept pe deplin cele de mai sus si ca urmare le semnez.
+            </p>
+        
+        	<div style = "margin-top: 100px;">Semnatura pacientului/reprezentantului legal ___________________{!todayString}</div>
+        </div>
+    
+        <div style ="page-break-before: always; -fs-page-sequence: start;">
+            <div style="margin-top: 10px; font-size: 12pt; text-align: center; text-weight: bold;">
+                <b>CONSIMTAMANT INFORMAT</b>
+            </div>            
+            <div style="margin-top: 20px; text-align: justify; text-justify: inter-word; text-indent: 25px;">
+                <p> 
+                	Am inteles beneficiile si riscurile investigatiei/procedurii {!currentProcedure.Procedure__r.Procedure_Name__c} invazive ce urmeaza sa mi se faca si <u><b>sunt de acord</b></u> 
+                    cu efectuarea acesteia.
+				</p>
+                <p>
+					De asemenea in cazul aparitiei in timpul procedurii a unei complicatii ce necesita interventie chirurgicala de urgenta, <u><b>sunt de acord</b></u> ca aceasta sa se efectueze in
+                    conformitate cu decizia medicului curant.
+                </p>
+            </div>
+            <table style="margin-top: 20px; margin-left: 25px; width: 100%">
+                <tr style="width: 100%">
+                	<td style="width: 50%">
+                        Nume: {!currentProcedure.Patient__r.Name}
+                    </td>
+                    <td style="width: 50%">
+                        Data: {!todayString}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</apex:page>
